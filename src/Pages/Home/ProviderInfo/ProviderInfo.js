@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProviderInfo = () => {
     return (
-        <div id='providerInfo'>
+        <div id='provider-info'>
             <h2 className='mt-5 text-center'>Service Provider's Info</h2>
             <div className="container d-flex">
                 <div>
