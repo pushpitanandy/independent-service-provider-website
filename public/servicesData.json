@@ -4,41 +4,41 @@
         "name": "Citizenship Application",
         "price": 1500,
         "description": "This includes document preparation guidelines, complete application handling, and authorized reepresentation. Service will be valid till decision outcome.",
-        "image": "https://i.ibb.co/p4smv3y/Citizen2.jpg"
+        "image": "https://i.ibb.co/hWVmH2k/Citizen2.jpg"
     },
     {
         "id": 2,
         "name": "GCMS Notes Review Service",
         "price": 249,
         "description": "GCMS notes have valuable information on the current status and notes from the officers reviewing your file. Review will be provided via email.",
-        "image": "https://i.ibb.co/6FPCsdx/Immi-1.jpg"
+        "image": "https://i.ibb.co/8xZdbWY/Immi-1.jpg"
     },
     {
         "id": 3,
         "name": "Super VISA Application",
         "price": 1300,
         "description": "This includes document preparation guidelines and complete application handling. Most communication will be done over emails. However, virtual meetings can be scheduled on request if you need to speak.",
-        "image": "https://i.ibb.co/xX3mNpW/Agree.jpg"
+        "image": "https://i.ibb.co/B268Dt2/Agree.jpg"
     },
     {
         "id": 4,
         "name": "Document Review Service",
         "price": 200,
         "description": "This includes checking of document for its content, format, validity, and compliance per IRCC or provincial requirements. The feedback shall be provided over email.",
-        "image": "https://i.ibb.co/JCRNNZn/Review.jpg"
+        "image": "https://i.ibb.co/TcjqzkF/Review.jpg"
     },
     {
         "id": 5,
         "name": "NOC Code Service",
         "price": 99,
         "description": "Verification of your work experience whether it qualifies for the NOC code under which you are applying for PR or Provincial nomination.",
-        "image": "https://i.ibb.co/W5z6VC2/Doc1.jpg"
+        "image": "https://i.ibb.co/Npm81wx/Doc1.jpg"
     },
     {
         "id": 6,
         "name": "Additional Services",
         "price": 300,
         "description": "This includes Additional Document Request(ADR), Procedural Fairness Letter(PFL), PR card Renewal, Temporary Resident Permits.",
-        "image": "https://i.ibb.co/Cn6VVPY/Visa-canadian.jpg;"
+        "image": "https://i.ibb.co/ydHgp43/Visa1.jpg"
     }
 ]
