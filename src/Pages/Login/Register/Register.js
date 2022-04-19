@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import Loading from '../../../Loading/Loading';
 
 const Register = () => {
 
@@ -35,6 +36,10 @@ const Register = () => {
         navigate('/home');
     }
 
+    if (loading) {
+        return <Loading></Loading>
+    }
+
     return (
         <div className='container w-50 mx-auto'>
             <h2 className='text-success text-center mt-2'>Please Register!</h2>
@@ -59,7 +64,7 @@ const Register = () => {
                     Register
                 </Button>
             </Form>
-            <p>Already have an account? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+            <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
             <SocialLogin></SocialLogin>
         </div>
     );
