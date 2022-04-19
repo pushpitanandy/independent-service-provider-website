@@ -14,6 +14,14 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
+    let errorElement;
+    if (error) {
+
+        errorElement = <div>
+            <p className='text-danger'>Error: {error.message}</p>
+        </div>
+    }
+
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const navigate = useNavigate();
@@ -50,9 +58,10 @@ const Login = () => {
                 </Form.Group>
 
                 <Button variant="success" type="submit">
-                    Submit
+                    Login
                 </Button>
             </Form>
+            {errorElement}
             <p>New to this Community? <Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
             <SocialLogin></SocialLogin>
         </div>
