@@ -3,6 +3,7 @@ import './App.css';
 import About from './Pages/About/About';
 import Blogs from './Pages/Blogs/Blogs';
 import CheckOut from './Pages/CheckOut/CheckOut';
+import ThankYou from './Pages/CheckOut/ThankYou';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
@@ -21,6 +22,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path="/thankyou" element={<ThankYou></ThankYou>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/checkout' element={
           <RequireAuth>
